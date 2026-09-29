@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to calculate eBay sell-through rate (2026)</title>
+  <meta name="description" content="Sell-through rate tells you how fast an item sells on eBay. The formula, how to get the numbers in 2026, how to read the result, and the common mistakes.">
+  <link rel="canonical" href="https://soldscopeapp.github.io/guides/ebay-sell-through-rate.html">
+  <link rel="icon" href="../img/icon128.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="../"><img src="../img/icon128.png" alt="">SoldScope</a>
+  <nav><a href="sort-ebay-by-most-sold.html">Sort guide</a><a href="../privacy.html">Privacy</a></nav>
+</header>
+<main>
+  <h1>How to calculate eBay sell-through rate</h1>
+  <p class="lede">Sell-through rate (STR) compares how many listings sold with how many are still for sale. Resellers use it to decide whether an item is worth buying.</p>
+
+  <h2>The formula</h2>
+  <span class="formula">Sell-through rate = sold listings ÷ active listings × 100</span>
+  <p>Use the same search words and filters for both numbers. eBay’s sold results cover roughly the last 90 days, so the rate describes that window.</p>
+  <p>Some sellers divide by sold + active instead, which keeps the result under 100%. Either works if you use one method consistently.</p>
+
+  <h2>Getting the two numbers</h2>
+  <ol>
+    <li><b>Active count:</b> search normally and read the number next to “results for”.</li>
+    <li><b>Sold count:</b> open Filter, turn on <b>Sold Items</b>, and read the result count again. You need to be signed in; since July 2026 eBay only shows sold listings to signed-in users.</li>
+  </ol>
+
+  <h2>Worked example</h2>
+  <table>
+    <tr><th>Search</th><th>Sold (90 days)</th><th>Active</th><th>Sell-through</th></tr>
+    <tr><td>Example item A</td><td>600</td><td>1,200</td><td>50%</td></tr>
+    <tr><td>Example item B</td><td>4,100</td><td>3,500</td><td>117%</td></tr>
+  </table>
+  <p>Item B sold more units in 90 days than are listed right now, so a new listing is likely to sell quickly.</p>
+
+  <h2>Reading the result</h2>
+  <p>There is no official scale. A common rule of thumb among resellers:</p>
+  <table>
+    <tr><th>Sell-through</th><th>What it usually means</th></tr>
+    <tr><td>100% or more</td><td>Very fast. Demand is higher than current supply.</td></tr>
+    <tr><td>50–100%</td><td>Fast. Most listings sell within the window.</td></tr>
+    <tr><td>20–50%</td><td>Moderate. Price and condition decide who sells.</td></tr>
+    <tr><td>Under 20%</td><td>Slow. Expect to wait or to price below the median.</td></tr>
+  </table>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li><b>Mixing search words.</b> “levis 501” and “levis 501 vintage” give different pools. Keep them identical.</li>
+    <li><b>Counting Best Offer prices.</b> When an item sells through an accepted offer, eBay shows the original price crossed out. The real sale price is hidden, so leave those out of price averages.</li>
+    <li><b>Reading too few results.</b> A 90% rate from 9 sold and 10 active is noise. Look for dozens of sales.</li>
+  </ul>
+
+  <h2>Let the browser do it</h2>
+  <p><a href="../">SoldScope</a>, a free Chrome extension, calculates the sell-through rate and the median sold price on every eBay search, excluding Best Offer prices, and can sort the page by most sold.</p>
+  <a class="btn" href="https://chromewebstore.google.com/detail/soldscope-sold-sort-sell/gncdkoamdfpminkbbjchmmcaikjillld">Add SoldScope to Chrome — free</a>
+</main>
+<footer>SoldScope is an independent tool and is not affiliated with or endorsed by eBay Inc.</footer>
+</body>
+</html>
