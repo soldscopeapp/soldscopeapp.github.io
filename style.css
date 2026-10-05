@@ -55,3 +55,5 @@ footer { padding-top: 36px; padding-bottom: 40px; color: var(--muted); font-size
   h1 { font-size: 29px; }
   nav a { margin-left: 10px; }
 }
+
+.btn-secondary { background: #fff; color: #0b5d3b; border: 1px solid #0b5d3b; margin-left: 8px; }
